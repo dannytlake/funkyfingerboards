@@ -1,22 +1,25 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Navigation from "./components/Navigation";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Funky Fingerboards",
-  description: "Custom handcrafted fingerboards made in Canada",
+  title: {
+    default: "Funky Fingerboards | Custom Handcrafted Fingerboards",
+    template: "%s | Funky Fingerboards"
+  },
+  description: "Premium handcrafted fingerboards made in Canada. Custom 5-ply maple construction for the perfect feel.",
+  metadataBase: new URL('https://funkyfingerboards.com'),
+  openGraph: {
+    title: 'Funky Fingerboards',
+    description: 'Premium handcrafted fingerboards made in Canada',
+    url: 'https://funkyfingerboards.com',
+    siteName: 'Funky Fingerboards',
+    locale: 'en_CA',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
@@ -26,9 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={inter.className}>
         <Navigation />
         <div className="pt-16">
           {children}
