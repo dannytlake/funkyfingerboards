@@ -6,10 +6,10 @@ export default function GearPage() {
           Gear Guide
         </h1>
 
-        <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm mb-8">
+        <div className="bg-white/10 p-8 rounded-lg backdrop-blur-sm">
           <h2 className="text-2xl font-semibold mb-4">Essential Equipment</h2>
           <p className="text-lg mb-6">
-            Quality gear makes all the difference in fingerboarding. Here's what you need to get started 
+            Quality gear makes all the difference in fingerboarding. Here&apos;s what you need to get started 
             and progress in your fingerboarding journey.
           </p>
         </div>

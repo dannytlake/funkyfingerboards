@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import ImageCarousel from './components/ImageCarousel'
 
 const carouselImages = [
