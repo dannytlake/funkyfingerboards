@@ -24,7 +24,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center p-8 md:p-24">
       <div className="max-w-4xl w-full">
         <h1 className="text-4xl md:text-6xl font-bold text-center mb-8">
-          Welcome to Funky Fingerboarding
+          Welcome to Funky Fingerboards
         </h1>
 
         <div className="mb-8">
