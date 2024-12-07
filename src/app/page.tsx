@@ -65,6 +65,21 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <div className="bg-blue-500/20 p-8 rounded-lg backdrop-blur-sm text-center">
+          <h2 className="text-2xl md:text-3xl font-semibold mb-4">
+            🚀 Coming Soon: Online Store
+          </h2>
+          <p className="text-lg mb-4">
+            We&apos;re excited to announce that our ecommerce site is in development! 
+            Soon you&apos;ll be able to customize and order your perfect fingerboard directly through our website.
+          </p>
+          <div className="bg-white/10 p-4 rounded-lg inline-block">
+            <p className="text-sm md:text-base">
+              Until then, reach out via our <a href="/contact" className="text-blue-400 hover:text-blue-300 transition-colors">contact page</a> to order your custom fingerboard!
+            </p>
+          </div>
+        </div>
       </div>
     </main>
   )
