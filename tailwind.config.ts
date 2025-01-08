@@ -11,6 +11,9 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'nav-link': {
+          light: '#000000', // Dark text for light theme
+        },
       },
     },
   },
