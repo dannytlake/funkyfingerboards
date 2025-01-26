@@ -2,43 +2,43 @@ import ImageCarousel from './components/ImageCarousel'
 
 const carouselImages = [
   {
-    src: '/images/fingerboards/home/IMG_1586.jpg',
+    src: '/images/fingerboards/home/IMG_1586.jpeg',
     alt: 'Funky Fingerboarding Main',
   },
   {
-    src: '/images/fingerboards/home/IMG_4014.jpg',
+    src: '/images/fingerboards/home/IMG_4014.jpeg',
     alt: 'Funky Fingerboarding Main',
   },
   {
-    src: '/images/fingerboards/home/IMG_4103.jpg',
+    src: '/images/fingerboards/home/IMG_4103.jpeg',
     alt: 'Funky Fingerboarding Main',
   },
   {
-    src: '/images/fingerboards/home/IMG_4104.jpg',
+    src: '/images/fingerboards/home/IMG_4104.jpeg',
     alt: 'Funky Fingerboarding Main',
   },
   {
-    src: '/images/fingerboards/home/IMG_4235.jpg',
+    src: '/images/fingerboards/home/IMG_4235.jpeg',
     alt: 'Funky Fingerboarding Main',
   },
   {
-    src: '/images/fingerboards/home/IMG_4325.jpg',
+    src: '/images/fingerboards/home/IMG_4325.jpeg',
     alt: 'Funky Fingerboarding Main',
   },
   {
-    src: '/images/fingerboards/home/IMG_4443.jpg',
+    src: '/images/fingerboards/home/IMG_4443.jpeg',
     alt: 'Funky Fingerboarding Main',
   },
   {
-    src: '/images/fingerboards/home/IMG_5385.jpg',
+    src: '/images/fingerboards/home/IMG_5385.jpeg',
     alt: 'Funky Fingerboarding Main',
   },
   {
-    src: '/images/fingerboards/home/IMG_6185.jpg',
+    src: '/images/fingerboards/home/IMG_6185.jpeg',
     alt: 'Funky Fingerboarding Main',
   },
   {
-    src: '/images/fingerboards/home/IMG_6274.jpg',
+    src: '/images/fingerboards/home/IMG_6274.jpeg',
     alt: 'Funky Fingerboarding Main',
   },
 ]
