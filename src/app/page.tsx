@@ -6,7 +6,7 @@ const carouselImages = [
     alt: 'Funky Fingerboarding Main',
   },
   {
-    src: '/images/fingerboards/home/IMG_4014.jpeg',
+    src: '/images/fingerboards/home/IMG_4102.jpeg',
     alt: 'Funky Fingerboarding Main',
   },
   {
